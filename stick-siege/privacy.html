@@ -4,108 +4,118 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Stick Siege — Privacy Policy</title>
+<meta name="description" content="Privacy policy for the Stick Siege app by OVRSEE LLC.">
 <style>
-  :root { color-scheme: light dark; --ink:#1a1a1a; --dim:#5a5a5a; --bg:#faf7f0; --rule:#e2ddd0; }
-  @media (prefers-color-scheme: dark) { :root { --ink:#ece8e0; --dim:#a09a90; --bg:#16150f; --rule:#32302a; } }
-  body { background:var(--bg); color:var(--ink); margin:0; padding:48px 20px 96px;
-         font:16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-  main { max-width:44rem; margin:0 auto; }
-  h1 { font-size:1.9rem; margin:0 0 .25rem; letter-spacing:-.02em; }
-  h2 { font-size:1.1rem; margin:2.5rem 0 .6rem; letter-spacing:-.01em; }
-  .sub { color:var(--dim); margin:0 0 2.5rem; }
-  table { border-collapse:collapse; width:100%; margin:1rem 0; font-size:.94rem; }
-  th, td { text-align:left; padding:.55rem .6rem; border-bottom:1px solid var(--rule); vertical-align:top; }
-  th { color:var(--dim); font-weight:600; }
+  :root { --paper:#f7f2e6; --paper2:#fffdf7; --ink:#17171c; --muted:#6b6a66; --rule:rgba(84,116,145,.16); --margin:#c05956; --gold:#f2b632; --line:rgba(23,23,28,.18); }
+  * { box-sizing:border-box; }
+  body { margin:0; color:var(--ink); background:var(--paper);
+         background-image:linear-gradient(90deg,transparent 44px,var(--margin) 44px,var(--margin) 46px,transparent 46px),
+                          repeating-linear-gradient(0deg,transparent 0,transparent 27px,var(--rule) 27px,var(--rule) 28px);
+         font:16px/1.7 -apple-system, BlinkMacSystemFont, "Avenir Next", "Segoe UI", Helvetica, Arial, sans-serif; }
+  main { max-width:42rem; margin:0 auto; padding:40px 20px 80px 60px; }
+  header small { display:block; font-size:.72rem; letter-spacing:.16em; text-transform:uppercase; color:var(--muted); }
+  h1 { font-size:2rem; line-height:1.15; margin:.2rem 0 .3rem; letter-spacing:-.02em; }
+  h1 i { font-style:normal; color:var(--gold); }
+  .sub { margin:0 0 1.4rem; color:var(--muted); }
+  h2 { font-size:1.05rem; margin:1.8rem 0 .5rem; padding-bottom:.2rem; border-bottom:2px solid var(--ink); display:inline-block; }
+  .card { background:var(--paper2); border:2px solid var(--ink); border-radius:16px; padding:14px 18px; margin:1rem 0; box-shadow:4px 5px 0 var(--ink); }
+  .card p { margin:.3rem 0; }
   .wrap { overflow-x:auto; }
+  table { border-collapse:collapse; width:100%; margin:.6rem 0; font-size:.94rem; background:var(--paper2); border:2px solid var(--ink); border-radius:12px; overflow:hidden; }
+  th, td { text-align:left; padding:.55rem .6rem; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:700; font-size:.8rem; letter-spacing:.06em; text-transform:uppercase; }
+  tr:last-child td { border-bottom:0; }
+  .btn { display:inline-block; margin:.4rem .5rem .2rem 0; padding:10px 18px; border:2px solid var(--ink); border-radius:999px; background:var(--gold); color:var(--ink); font-weight:800; text-decoration:none; box-shadow:0 3px 0 var(--ink); }
+  .btn.quiet { background:var(--paper2); }
   a { color:inherit; }
-  footer { margin-top:3.5rem; padding-top:1.2rem; border-top:1px solid var(--rule); color:var(--dim); font-size:.9rem; }
+  ul { padding-left:1.2rem; }
+  footer { margin-top:3rem; padding-top:1rem; border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; }
+  @media (max-width:480px) { main { padding-left:54px; padding-right:14px; } h1 { font-size:1.7rem; } }
 </style>
 </head>
 <body>
 <main>
-
-<h1>Stick Siege — Privacy Policy</h1>
-<p class="sub">Last updated 17 September 2026</p>
+<header>
+  <small>Field notes · privacy</small>
+  <h1>Stick Siege <i>✦</i> Privacy Policy</h1>
+  <p class="sub">Last updated 4 October 2026</p>
+</header>
 
 <p>Stick Siege is made by <strong>OVRSEE LLC</strong> ("we"). This policy explains what the game
 collects, why, and what you can do about it. It covers the Stick Siege mobile app.</p>
 
-<p>The short version: the game has no accounts and never asks for your name, email, or address.
-Your progress is stored on your own device. The only data that leaves the device is anonymous
-gameplay statistics and whatever the advertising and payment services need to work.</p>
+<div class="card">
+  <p><strong>The short version.</strong> The game has no accounts and never asks for your name, email
+  or address. Your progress is saved on your own device. What leaves the device is limited to what
+  the optional ads need to work and, if we have turned it on, anonymous gameplay statistics.</p>
+</div>
 
 <h2>What stays on your device</h2>
-<p>Your saved game — levels cleared, upgrades, gold bars, cosmetics, campaign progress, and your
+<p>Your saved game — levels cleared, upgrades, gold bars, looks, your Last Stand army and your
 sound settings — is stored only in the app's own storage on your phone. We cannot read it, it is
 never uploaded, and deleting the app deletes it.</p>
 
-<h2>What we collect</h2>
+<h2>What may leave your device</h2>
 <div class="wrap">
 <table>
   <tr><th>What</th><th>Why</th><th>Who handles it</th></tr>
   <tr>
-    <td>A random ID created when you first open the game</td>
-    <td>To count players and sessions without identifying anyone. It is not linked to you, your
-        device, or any account, and a fresh install creates a new one.</td>
-    <td>PostHog</td>
-  </tr>
-  <tr>
-    <td>Gameplay events — a level started or finished, a purchase in the in-game shop, an ad
-        watched, the tutorial completed</td>
-    <td>To see which levels are too hard, what players actually use, and where they stop playing.</td>
-    <td>PostHog</td>
-  </tr>
-  <tr>
-    <td>Advertising identifier, approximate location from your IP address, and ad interaction
-        and performance data</td>
-    <td>To show ads and measure them. See "Advertising" below.</td>
+    <td>Advertising identifier (only if you allow tracking), approximate location from your IP
+        address, and ad interaction and performance data</td>
+    <td>To show the optional rewarded ads and measure them. See "Advertising" below.</td>
     <td>Google AdMob</td>
   </tr>
   <tr>
-    <td>Purchase records for the full-game unlock</td>
-    <td>To confirm a purchase and restore it if you reinstall. Payment itself is handled entirely
-        by Apple — we never see your card details.</td>
-    <td>RevenueCat, Apple</td>
+    <td>A random install ID and gameplay events — a level started or finished, an item bought
+        with in-game gold, an ad watched, the tutorial completed. <em>Only in builds where
+        analytics is configured;</em> the ID is not linked to you or any account, and a fresh
+        install creates a new one.</td>
+    <td>To see which levels are too hard and where players stop.</td>
+    <td>PostHog</td>
+  </tr>
+  <tr>
+    <td>Purchase records for a paid full-game unlock. <em>Only if a future version offers one.</em>
+        This release is free and offers nothing to buy, so no purchase data is collected.</td>
+    <td>To confirm a purchase and restore it after a reinstall. Payment is handled by Apple; we
+        never see card details.</td>
+    <td>Apple, RevenueCat</td>
   </tr>
 </table>
 </div>
 
 <h2>Advertising</h2>
 <p>Stick Siege shows optional rewarded video ads through Google AdMob. You are never made to watch
-one: they appear only when you choose to tap a button to double a reward, and declining costs you
-nothing but the bonus.</p>
-
-<p>On first showing an ad, iOS asks whether you allow tracking. <strong>Whatever you answer, you
-still get the reward and the game still works.</strong> Saying no means the ads you see are chosen
-without an advertising identifier — you get the same number of ads, just less relevant ones.</p>
-
-<p>Google may use a device identifier, your approximate location derived from your IP address, and
+one: an ad appears only when you choose to tap a button to double a battle reward, and declining
+costs you nothing but the bonus.</p>
+<p>Before the first ad, iOS may ask whether you allow tracking. <strong>Whatever you answer, you
+still get the reward and the game still works.</strong> Saying no means ads are chosen without an
+advertising identifier — the same ads, just less relevant ones.</p>
+<p>Google may use a device identifier, your approximate location derived from your IP address and
 data about the ads you see to select and measure advertising. How Google uses this is described at
 <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>.</p>
 
 <h2>If you are in Europe or the UK</h2>
-<p>Before any ad is shown, the game asks for your consent using Google's consent form, and records
-your choice. You can change it at any time: open <strong>Settings</strong> inside the game and tap
-<strong>Manage</strong> on "Ad privacy choices".</p>
-
+<p>Where required, the game asks for your consent using Google's consent form before any ad is
+shown, and records your choice. You can change it at any time in the game's <strong>Settings</strong>
+under "Ad privacy choices".</p>
 <p>Our legal basis is your consent for advertising, and our legitimate interest in understanding how
-the game is played for the anonymous gameplay statistics. You have the right to access, correct,
-export, or delete your data, to withdraw consent, and to complain to your national data protection
-authority.</p>
+the game is played for any anonymous gameplay statistics. You have the right to access, correct,
+export or delete your data, to withdraw consent, and to complain to your data protection authority.</p>
 
 <h2>If you are in California or another US state with a privacy law</h2>
 <p>We do not sell your personal information for money. Sharing an advertising identifier for
 personalised advertising may count as a "sale" or "share" under some state laws. You can opt out by
-declining the tracking request iOS shows you, or by turning on "Limit Ad Tracking" in your device
-settings. You have the right to know what we have collected, and to ask us to delete it.</p>
+declining the tracking request iOS shows you, or in iOS Settings → Privacy &amp; Security → Tracking.
+You have the right to know what has been collected and to ask us to delete it.</p>
 
 <h2>Children</h2>
 <p>Stick Siege is not directed at children under 13 and we do not knowingly collect data from them.
 If you believe a child has provided us with data, contact us and we will delete it.</p>
 
 <h2>How long we keep it</h2>
-<p>Anonymous gameplay statistics are kept for up to 24 months. Purchase records are kept as long as
-needed to honour a restore and to meet tax and accounting obligations.</p>
+<p>Anonymous gameplay statistics, where collected, are kept for up to 24 months. If purchases are
+ever offered, their records would be kept as long as needed to honour a restore and to meet tax
+and accounting obligations.</p>
 
 <h2>Where your data goes</h2>
 <p>Our service providers are based in the United States and the European Union, so data may be
@@ -126,14 +136,14 @@ Standard Contractual Clauses.</p>
 app's release notes.</p>
 
 <h2>Contact</h2>
-<p>
-  OVRSEE LLC<br>
+<div class="card">
+  <p>OVRSEE LLC<br>
   2020 N Bayshore Dr, Unit 1906, Miami, FL 33137, United States<br>
-  <a href="mailto:nematollah.cas@gmail.com">nematollah.cas@gmail.com</a>
-</p>
+  <a href="mailto:nematollah.cas@gmail.com">nematollah.cas@gmail.com</a></p>
+  <a class="btn quiet" href="support.html">Support page</a>
+</div>
 
-<footer>OVRSEE LLC · Stick Siege</footer>
-
+<footer>OVRSEE LLC · Stick Siege · <a href="support.html">Support</a></footer>
 </main>
 </body>
 </html>
